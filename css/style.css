@@ -92,11 +92,7 @@ body {
   font-weight: 700;
   margin-bottom: 60px;
 }
-.intro__form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
+
 .intro__about {
   display: flex;
   align-items: center;
@@ -129,4 +125,45 @@ body {
 }
 .intro__feature:last-child .intro__icon::after {
   content: "\f2f2";
+}
+.intro__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #fff;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.13);
+  border-radius: var(--radius-value);
+  padding: 30px 30px;
+  height: 400px;
+  width: 37%;
+}
+.form__header {
+  font-size: 2.6rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.intro__form label {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 15px 0 5px;
+}
+.intro__form input {
+  outline: none;
+  border: 0;
+  border-bottom: 1px solid rgb(207, 207, 207);
+  font-style: 1.6rem;
+  padding: 3px 0;
+}
+.form__button {
+  margin-top: 15px;
+  padding: 15px 30px;
+  background-color: rgb(9, 216, 98);
+  width: 60%;
+  color: white;
+  font-weight: 600;
+  font-size: 1.4rem;
+  border-radius: var(--radius-value);
+  border: 0;
+  outline: 0;
+  cursor: pointer;
 }
